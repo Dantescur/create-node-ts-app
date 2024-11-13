@@ -1,59 +1,35 @@
-# Create Node TS App
+<h1 align="center" id="title">Create Node TS App</h1>
 
-<!--toc:start-->
+<p align="center"><img src="https://socialify.git.ci/dantescur/create-node-ts-app/image?font=Raleway&amp;language=1&amp;name=1&amp;pattern=Solid&amp;theme=Dark" alt="project-image"></p>
 
-- [Create Node TS App](#create-node-ts-app)
-  - [Features](#features)
-  - [Usage](#usage)
-  - [Project Structure](#project-structure)
-  - [Scripts](#scripts)
-  - [Dependencies](#dependencies)
+<p id="description">A simple scaffolding CLI to quickly create a Node.js project with TypeScript support including useful tools and configurations to get started fast.</p>
 
-A simple scaffolding CLI to quickly create a Node.js project with TypeScript support,
-including useful tools and configurations to get started fast.
+<p align="center"><img src="https://img.shields.io/npm/last-update/%40areitosa%2Fcreate-node-ts-app" alt="shields"><img src="https://img.shields.io/npm/l/%40areitosa%2Fcreate-node-ts-app" alt="shields"><img src="https://img.shields.io/github/package-json/v/dantescur/create-node-ts-app" alt="shields"></p>
 
-## Features
+<h2>🧐 Features</h2>
+
+Here're some of the project's best features:
 
 - Pre-configured TypeScript setup
 - Hot-reloading with ts-node-dev
 - Easy development workflow using nodemon
 - Build scripts included
 
-## Usage
+<h2>🛠️ Installation Steps:</h2>
 
-Create a new Node.js TypeScript project with the following command:
-
-`pnpm create @areitosa/node-ts-app@latest <project-name>`
-
-Replace `<project-name>` with the name of your desired project.
-
-## Project Structure
-
-After running the command, you'll get a project with the following structure:
-
-```plaintext
-<project-name>/
-├── dist/ # Compiled output (after build)
-├── src/
-│ └── index.ts # Main entry point
-├── nodemon.json # Nodemon configuration
-├── package.json
-└── tsconfig.json # TypeScript configuration
-```
-
-## Scripts
-
-The generated project includes the following pnpm scripts for convenience:
+<p>1. Scaffold</p>
 
 ```
-pnpm start: Start the project with nodemon for automatic reloading.
-
-pnpm build: Compile TypeScript files to JavaScript in the dist folder.
+pnpm create @areitosa/node-ts-app@latest project-name
 ```
 
-## Dependencies
+<h2>💻 Built with</h2>
 
-- typescript
-- ts-node-dev
-- nodemon
-- @types/node
+Technologies used in the project:
+
+- Javascript
+- Node
+
+<h2>🛡️ License:</h2>
+
+This project is licensed under the MIT
