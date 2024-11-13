@@ -1,11 +1,23 @@
 {
   "compilerOptions": {
-    "target": "ES6",
-    "module": "CommonJS",
     "rootDir": "src",
     "outDir": "dist",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "target": "es2022",
+    "verbatimModuleSyntax": true,
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "moduleDetection": "force",
+    /* Strictness */
     "strict": true,
-    "esModuleInterop": true
+    "noUncheckedIndexedAccess": true,
+    /* If NOT transpiling with TypeScript: */
+    "moduleResolution": "Bundler",
+    "module": "ESNext",
+    "noEmit": true,
+    /* If your code doesn't run in the DOM: */
+    "lib": ["es2022"]
   },
   "include": ["src"],
   "exclude": ["node_modules"]
