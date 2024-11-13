@@ -34,7 +34,7 @@ function createProject() {
   copyTemplateFiles(templateDir, projectDir);
 
   console.log("Initializing package.json...");
-  execSync("pnpm init -y", { cwd: projectDir, stdio: "inherit" });
+  execSync("pnpm init", { cwd: projectDir, stdio: "inherit" });
 
   console.log("Installing dependecies...");
   execSync("pnpm add -D typescript ts-node-dev @types/node nodemon", {
